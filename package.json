@@ -1,0 +1,35 @@
+{
+  "name": "vue-constellation",
+  "description": "vue-constellation",
+  "version": "0.0.1",
+  "author": "Vadym <margeslt@gmail.com>",
+  "private": false,
+  "main": "src/index.js",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "less": "^2.7.2",
+    "less-loader": "^4.0.5",
+    "style-loader": "^0.18.2",
+    "v-tooltip": "^2.1.3",
+    "vue": "^2.3.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.0.0",
+    "babel-preset-latest": "^6.0.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "cross-env": "^3.0.0",
+    "css-loader": "^0.28.0",
+    "del": "^3.0.0",
+    "shelljs": "^0.7.7",
+    "vue-loader": "^11.1.4",
+    "vue-template-compiler": "^2.2.1",
+    "webpack": "^2.2.0",
+    "webpack-dev-server": "^2.2.0",
+    "standard-version": "^4.0.0",
+    "vue-router": "^2.8.1"
+  },
+  "license": "MIT"
+}
