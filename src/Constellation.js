@@ -7,7 +7,7 @@ export default class Constellation{
     };
     init(){
         this.canvas = document.createElement('canvas');
-        this.canvas.className = 'vue-pg__canvas';
+        this.canvas.className = 'vue-constellation__canvas';
         this.canvas.style.display = 'block';
         this.canvas.style.position = 'absolute';
         this.canvas.style.left = 0;

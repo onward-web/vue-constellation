@@ -1,6 +1,6 @@
 <template>
   <div class="vue-constellation" ref="vueConstellation">
-    <div class = "vue-constellation_content">
+    <div class = "vue-constellation__content">
       <slot/>
     </div>
   </div>
