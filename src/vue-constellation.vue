@@ -97,3 +97,9 @@ export default{
 }
 </script>
 
+<style>
+.vue-constellation__canvas{
+  max-width: 100%;
+}
+</style>
+
